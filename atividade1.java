@@ -22,7 +22,7 @@ public class atividade1 {
 	     idade = leia.nextInt();
 	     
 	     System.out.println("Primeira doação de sangue? (Responda com s ou n) ");
-	     leia.skip("\r?");
+	     leia.skip("\\R?");
 	     doacao = leia.nextLine().charAt(0);
 	     
 	     //condições
